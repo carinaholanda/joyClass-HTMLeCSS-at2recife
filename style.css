@@ -1,0 +1,57 @@
+header {
+    background-color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+nav img{
+    height: 1px;
+}
+
+footer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(250, 235, 238);
+    align-items:flex-start;
+    gap:20px;
+    margin-bottom: 8px;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container img {
+    height: 200px;
+}
+
+* {
+    text-decoration: none;
+}
+
+h1{
+    color: brown;
+}
+.container img {
+    width: 250px;
+}
